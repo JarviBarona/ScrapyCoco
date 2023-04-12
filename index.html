@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <!---BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!---ICONOS-->
+    <script src="https://kit.fontawesome.com/c656267fe1.js" crossorigin="anonymous"></script>
+    <title>Scrapy Coco</title>
+</head>
+<body>
+    <!---MENU-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark #2c313c">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo-footer.png" alt="Logo" width="120px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#quienesSomos">
+                    Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="formulario.html">Agenda Hora</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contacto">
+                    Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nuestros Cortes 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="carruselmujer.html">Cortes Mujer</a></li>
+                <li><a class="dropdown-item" href="carrusel.html">Cortes Hombres</a></li>
+                </ul>
+            </li>
+            </ul>
+            
+        </div>
+        </div>
+    </nav>
+    <!---SLIDER DE INICIO -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+            <img src="img/imagen2.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/imagen1.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/imagen3.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!---QUIENES SOMOS-->
+    <section class="w-50 mx-auto text-center  pt-5" id="quienesSomos">
+        <h1 class="p-3 fs-2 border-top border-3 "> QUIENES  <span class="text-info"> SOMOS!</span></h1>
+        <p class="p-3 fs-4" ><span class="text-info">Scrapy Coco.</span>
+            Empresa dedicada a darte el mejor servicio y en bellezer tu dia.</p>
+    </section>
+
+
+    <!--PIE DE PAGINA-->
+    <section class="" id="contacto">
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src=" img/logo-footer.png" alt="logo barberia">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h1>CONTACTANOS</h1>
+                <p></p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11196.49261435402!2d-70.66355930180579!3d-33.45615347432367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c50ece08b569%3A0x2fb0a2e7986d894c!2sParque%20Almagro!5e0!3m2!1ses-419!2scl!4v1680885323173!5m2!1ses-419!2scl" 
+                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                
+            </div>
+            <div class="box">
+                <h2>SIGUENOS EN NUESTRAS REDES</h2>
+                <div class="red-social">
+                    <a href="https://www.instagram.com/scrapy.cc/" target="_blank"
+                    class=" fa fa-instagram"></a>
+                    <a href="https://web.facebook.com/profile.php?id=100091445451404" target="_blank"
+                    class=" fa fa-facebook"></a>
+                    <a href="https://wa.me/56931085509?text=Hola quiero agendar un turno." target="_blank" 
+                    class=" fa fa-whatsapp"></a>
+
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy;2023 <b>APRENDIENO HTML</b> </small>
+        </div>
+    </footer>
+</section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
